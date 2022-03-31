@@ -9,13 +9,21 @@ Values for each character shall be the initial digit (1 to 9) in this Sudoku cel
 An example for the input file contents can be:
 
 ...2...3.
+
 ..5.7.2..
+
 ..9....41
+
 ..3..9..7
+
 .5......4
+
 8......1.
+
 9..3.....
+
 ..86.....
+
 .145..37.
 
 Results are sent to the standard output. If the 'verbose' option is selected, they are printed all options being analized plus the solutions found. When no 'verbose' only solutions are printed.
@@ -28,6 +36,7 @@ Usage: sudoku <input.txt >output.txt [-sn][-v]
 
 being:
 
--sn find n solutions. Default is 1 solution.
--v be verbose printing all information. Default is no verbose.
+-sn :find n solutions. Default is 1 solution.
+
+-v :be verbose printing all information. Default is no verbose.
 
