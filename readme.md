@@ -1,4 +1,4 @@
-﻿##Sudoku solver 
+Sudoku solver 
 
 Sodoku solver is a CLI tool that solves a given sudoku using a heuristic algorithm.
 
@@ -30,7 +30,7 @@ Results are sent to the standard output. If the 'verbose' option is selected, th
 
 If the option 'number of solutions' is selected, the program stops when this limit is reached (or when no additional solutions are found).
 
-##Usage
+Usage
 
 Usage: sudoku <input.txt >output.txt [-sn][-v]
 
